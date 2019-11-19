@@ -67,3 +67,34 @@ Cypress.Commands.add('waitForCartData', () => {
   cy.route('/customer/section/load/?sections=cart*').as('getCartData')
   cy.wait('@getCartData')
 })
+
+Cypress.Commands.add('addProductToCart', () => {
+  cy.fixture('urls.json').then(({ simpleProduct }) => {
+    cy.visit(simpleProduct)
+  })
+  // cy.get('input[name="form_key"]')
+  //   .invoke('val')
+  //   .then(formKey => {
+      cy.get('#product_addtocart_form').invoke('val').then(addCartUrl => {
+        cy.request({
+          method: 'POST',
+          url: 'blalalalsjnajjsd',
+          form: true,
+          body: {
+            qty: '1',
+            product: '1',
+            // form_key: formKey
+          }
+      })
+      // cy.request({
+      //   method: 'POST',
+      //   url: 'checkout/cart/add/uenc/*/product/1/',
+      //   form: true,
+      //   body: {
+      //     qty: '1',
+      //     product: '1',
+      //     form_key: formKey
+      //   }
+      })
+    // })
+})

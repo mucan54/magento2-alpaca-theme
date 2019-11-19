@@ -5,5 +5,6 @@
   "bundleProduct": "/sprite-yoga-companion-kit",
   "simpleProduct": "/joust-duffle-bag",
   "virtualProduct": "/virtual-product-test",
-  "cartView": "/checkout/cart"
+  "cartView": "/checkout/cart",
+  "checkoutView": "/checkout"
 }
