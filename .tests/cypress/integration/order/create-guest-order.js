@@ -16,13 +16,15 @@ describe('Create order as guest', function() {
     cy.fillUpShippingAdressForm()
   })
 
-  it('Choose shipping method and submit',() => {
-    cy.get('.table-checkout-shipping-method').find('.radio__icon').then(items => {
-      pickRandomitem(items).click(items)
-    })
+  it('Choose shipping method and submit', () => {
+    cy.get('.table-checkout-shipping-method')
+      .find('.radio__icon')
+      .then(items => {
+        pickRandomitem(items).click(items)
+      })
     cy.get('[data-testid=checkout-submit-button]').click()
   })
-  
+
   it('Checks Billing and shipping adress are the same and place order', () => {
     cy.get('div.primary > .action > span').click()
     cy.get('.checkout-success').should('be.visible')
