@@ -36,10 +36,6 @@
             }
         }
         .block-content {
-            @extend .abs-add-clearfix-desktop;
-            .box {
-                @extend .abs-blocks-2columns;
-            }
             .actions-toolbar {
                 clear: both;
                 @include lib-actions-toolbar(
@@ -102,6 +98,17 @@
         }
         .block-content {
             @extend .abs-add-clearfix-desktop;
+        }
+    }
+    .column {
+        .block-addbysku {
+            .block-content {
+                @extend .abs-add-clearfix-desktop;
+
+                .box {
+                    @extend .abs-blocks-2columns;
+                }
+            }
         }
     }
 }

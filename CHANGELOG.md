@@ -7,6 +7,8 @@ All notable changes to this project will be documented in this file.
 - Page builder styles
 - Skip navigation links
 - Registration forms adjustments
+### Changed
+- some styles to match changes made up to Magento 2.3.5-p1 but only those required by our theme
 
 ## [1.4.0] - 2019-10-15
 ### Added
