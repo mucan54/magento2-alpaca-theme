@@ -40,6 +40,10 @@
                         ]
                     ];
                     ?>
+                    <li <?= /* @noEscape */ $block->buildAttrFromArray($viewAllAttributes) ?>>
+                        <?= /* @noEscape */ $block->renderViewAllLink($parentNode) ?>
+                    </li>
+                <?php endif; ?>
                 <?php foreach ($block->getSubmenuNodes() as $node): ?>
                     <?php
                         $childrenLevel = $node->getLevel() + 1;
