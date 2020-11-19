@@ -2,6 +2,8 @@
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
+### Updated
+- theme to Magento 2.3.6 (#72223)
 ### Added
 - adjustems to store credit templates (#72456) Affects: store credit daschboard & checkout payment step
 - store credit dashboard to components (#72456)
