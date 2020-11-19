@@ -67,21 +67,20 @@
             src="<?= $this->getViewFileUrl('Magento_Theme::js/lib/core.min.js'); ?>"
             type="text/javascript"
         ></script>
-
-        <?= $requireJs ?>
-        <?= $headContent ?>
-        <?= $headAdditional ?>
+        <?= /* @noEscape */ $requireJs ?>
+        <?= /* @noEscape */ $headContent ?>
+        <?= /* @noEscape */ $headAdditional ?>
     </head>
     <body
         data-container="body"
         data-mage-init='{
             "loaderAjax": {},
             "loader": {
-                "icon": "<?= $loaderIcon ?>"
+                "icon": "<?= /* @noEscape */ $loaderIcon ?>"
             }
         }'
-        <?= $bodyAttributes ?>
+        <?= /* @noEscape */ $bodyAttributes ?>
     >
-        <?= $layoutContent ?>
+        <?= /* @noEscape */ $layoutContent ?>
     </body>
 </html>
