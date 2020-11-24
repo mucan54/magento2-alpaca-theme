@@ -31,6 +31,7 @@ All notable changes to this project will be documented in this file.
 - selects on catalog page and product list images (#70830)
 - table - scope row variant borders (#73250)
 - amasty styles loading (#73336)
+- product name in quicksearch, budnle options in cart, minicart z-index (#73341); affects: quicksearch product template, minicart template and cart item template
 
 ### Changed
 - a11y features on PDP - headings order, bundle fields, price labels, buttons labels, qty update buttons, rating form (#66039); Affects: bundles options and price templates, add to cart sticky, qty update implementation, rating, requires templates update is overwritten
@@ -119,7 +120,8 @@ Affects: if catalog (toolbar, filters, list) or mobile menu templates are overwr
 - typo in shipping address config (#68745)
 - item checkbox in requisition list (#68745); Affects: Requisition list
 - wishlist item actions covering active textarea border (#68745)
-- js error on bundle PDP - removed escaping method from bundle options template (#68745); Affects: Bundle PDP
+- js error on bundle PDP - removed escaping method from bundle options template (#68745)
+- fixed problems when cms blocks saved with Page Builder (#69990)
 ### Added
 - customer balance history template (#68745)
 - grouped product final price template (#68745); Affects: Grouped PDP
