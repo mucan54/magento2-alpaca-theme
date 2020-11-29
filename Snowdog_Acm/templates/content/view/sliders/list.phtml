@@ -165,7 +165,9 @@ $sliderItemClass = 'slider__item';
             ?>
         <div class="<?= $block->escapeHtmlAttr($sliderItemClass) ?>">
             <<?= $escapedBannerUrl ? 'a href="' . $escapedBannerUrl . '" target="' . /* @noEscape */ $bannerUrlTarget . '"' : 'div'; ?>
-                <?= $block->getChildHtml($sliderPictureBlock, false); ?>
+            class="banner"
+            >
+            <?= $block->getChildHtml($sliderPictureBlock, false); ?>
             </<?= $escapedBannerUrl ? 'a' : 'div'; ?>>
         </div>
         <?php endforeach; ?>
