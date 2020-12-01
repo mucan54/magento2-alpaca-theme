@@ -12,6 +12,7 @@ All notable changes to this project will be documented in this file.
 - margin to storelocator button on PDP (#68780)
 - product count to product compare page (#68780)
 - swatch option selected styles (#68780)
+- variables for product view add to cart button and cms contact max-width (#73403)
 
 ### Fixed
 - performance, changes for magepack - optimise js (minify js libs, datapicker, calendar, M2 bootstrap, marketing bar), styles loading (preload, remove useless variables), fonts (swap)
