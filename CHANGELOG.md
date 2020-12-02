@@ -13,6 +13,7 @@ All notable changes to this project will be documented in this file.
 - product count to product compare page (#68780)
 - swatch option selected styles (#68780)
 - variables for product view add to cart button and cms contact max-width (#73403)
+- adjustments to reward points templates (#70571) Affects: cart & checkout payment step
 
 ### Fixed
 - performance, changes for magepack - optimise js (minify js libs, datapicker, calendar, M2 bootstrap, marketing bar), styles loading (preload, remove useless variables), fonts (swap)
@@ -39,6 +40,7 @@ All notable changes to this project will be documented in this file.
 - bundle/downloadable PDP for editing wishlist item - broken layout (#70731)
 - bundle/configurable PDP for editing wishlist item - selected options don't save after clicking "update wish list" (#70731)
 - bundle product - in cart html visible in product description (#70731)
+- reward points tooltips position on cart view - moved inside messages (#70571)
 
 ### Changed
 - a11y features on PDP - headings order, bundle fields, price labels, buttons labels, qty update buttons, rating form (#66039); Affects: bundles options and price templates, add to cart sticky, qty update implementation, rating, requires templates update is overwritten
