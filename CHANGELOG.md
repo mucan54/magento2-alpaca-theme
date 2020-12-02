@@ -41,6 +41,7 @@ All notable changes to this project will be documented in this file.
 - bundle/configurable PDP for editing wishlist item - selected options don't save after clicking "update wish list" (#70731)
 - bundle product - in cart html visible in product description (#70731)
 - reward points tooltips position on cart view - moved inside messages (#70571)
+- buttons alignemnt on PDP for out of stock product (#72455)
 
 ### Changed
 - a11y features on PDP - headings order, bundle fields, price labels, buttons labels, qty update buttons, rating form (#66039); Affects: bundles options and price templates, add to cart sticky, qty update implementation, rating, requires templates update is overwritten
